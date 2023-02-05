@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:padding="16dp"
+        android:background="@drawable/quiz1pop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imagedzwiek"
+            android:layout_width="36dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="70dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/muzykawl" />
+
+        <ImageButton
+            android:id="@+id/imagecisza"
+            android:layout_width="36dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="120dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/muzykawyl" />
+
+        <Button
+            android:id="@+id/europa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/black"
+            android:insetTop="0dp"
+            android:text="EUROPA"
+            android:textSize="25dp"
+            app:cornerRadius="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/azja"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginBottom="195dp"
+            android:backgroundTint="@color/black"
+            android:text="AZJA"
+            android:textSize="25dp"
+            app:cornerRadius="20dp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/muz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bold"
+            android:text="MUZYKA:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

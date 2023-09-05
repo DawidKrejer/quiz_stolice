@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="16dp"
         android:background="@drawable/quiz1pop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,16 +51,16 @@
 
         <Button
             android:id="@+id/azja"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
             android:layout_marginHorizontal="120dp"
             android:layout_marginTop="450dp"
             android:layout_marginBottom="195dp"
             android:backgroundTint="@color/black"
             android:text="AZJA"
             android:textSize="25dp"
-            app:cornerRadius="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
 
 
 

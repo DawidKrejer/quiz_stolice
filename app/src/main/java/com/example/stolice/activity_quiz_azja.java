@@ -43,6 +43,7 @@ public class activity_quiz_azja extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_quiz_azja);
 
         listapytan = new ArrayList<>();
